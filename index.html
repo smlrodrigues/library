@@ -3,12 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewportj" content="width=device-width, initial-scale=1.0">
     <title>Libray</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <h1>My library</h1> 
+    <div id="library-grid"></div>
+    <div id="background-blur" hidden>
+        <div id="input-card">
+            <label for="title">Title</label>
+            <input type="text" name="title" id="title">
+            <label for="author">Author</label>
+            <input type="text" name="author" id="author">
+            <label for="pages">Pages</label>
+            <input type="number" name="pages" id="pages">
+            <button type="submit" id="confirmBook-btn">Add</button>
+            <button id="close-btn">Close</button>
+        </div>
+    </div>
+    <button id="newBook-btn">New Book</button>
 </body>
 </html>
